@@ -1,0 +1,182 @@
+/* General Styles */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url('Bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth; /* Smooth scrolling */
+    background-color:rgb(72, 154, 232);
+}
+
+/* Navigator Bar Styles */
+header {
+    height: 100vh; /* Full viewport height */
+    width: 250px;
+    background-color: rgb(25, 32, 69);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.Mainhome {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: rgb(15, 62, 181);
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.Mainhome:hover {
+    background-color: rgb(25, 32, 69);
+    transform: scale(1.1);
+}
+
+.Homebutton a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.Homebutton a:hover {
+    color: blue;
+}
+
+/* Home Section */
+#Home1 {
+    margin-left: 270px; /* To accommodate the fixed nav */
+    padding: 40px;
+}
+
+#Mainhead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Dp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 24px;
+    border: 6px solid black;
+    box-shadow: 1px 1px 20px rgb(74, 186, 208);
+}
+
+#mainname {
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+#Welcomeheading h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+#para {
+    font-size: 20px;
+    line-height: 1.6;
+    color: rgb(10, 18, 22);
+    text-align: center; /* Center align the text */
+}
+
+/* About Me Section */
+#Aboutme {
+    margin-left: 270px; /* To accommodate the fixed nav */
+    padding: 40px;
+}
+
+#aboutme1 {
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+#para-aboutme {
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+/* Skills Section */
+#Skills {
+    margin-left: 270px; /* To accommodate the fixed nav */
+    padding: 40px;
+}
+
+#UL-List {
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+/* Certifications Section */
+#Certifications {
+    margin-left: 270px; /* To accommodate the fixed nav */
+    padding: 40px;
+}
+
+.cert-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.cert-item {
+    text-align: center;
+}
+
+.cert-img {
+    height: 300px;
+    width: auto;
+    border: solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.cert-text {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Contact Section */
+#Contact {
+    margin-left: 270px; /* To accommodate the fixed nav */
+    padding: 40px;
+ 
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+
+}
+
+.contact-item {
+    background: #6f96c9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+}
+.num:link{
+    color: black;
+}
+    
